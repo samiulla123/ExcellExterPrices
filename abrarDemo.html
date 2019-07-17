@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Excell Enterprice</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script>
+  	function Display(num)
+  	{
+  		if(document.getElementById("hid"+num).style.display=="none")
+  		{
+  			document.getElementById("hid"+num).style.display="inline";
+  		}
+		else if(document.getElementById("hid"+num).style.display=="inline")
+  		{
+  			document.getElementById("hid"+num).style.display="none";
+  		}
+  	}
+  </script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jum {
+      margin-bottom: 0;
+	  background-color: #e6f3ff;
+	  height: 10%;
+	  width: 100%;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #e6f3ff;
+      padding: 25px;
+    }
+	.bgclr
+	{
+		 background-color: #e6f3ff;
+		 color: black;
+	}
+	
+	.bgclr ul li
+	{
+		color: black;
+	}
+	
+	.clr{
+		background-color: #e6f3ff;
+	}
+  </style>
+</head>
+<body>
+<header>
+<!--<div class="container text-center jumbotron">
+    <h1>Excell Enterprise</h1>      
+    <p>Mission, Vission & Values</p>
+  </div>
+</header>-->
+<div class="jum">
+  <div class="container text-center">
+    <h1>Excell Enterprise</h1>      
+    <blockquote class="blockquote">Mission, Vission & Values</blockquote>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	    <!--<a class="navbar-brand" href="#"><img src="logo.jpg" alt="Image Not Found" height="30" width="30"/></a>-->
+    </div>
+    <div class="collapse navbar-collapse bgclr" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Stores</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary clr">
+        <div class="panel-heading">Non Electric Filter Water Purifier</div>
+        <div class="panel-body"><img src="water\water1.jpg" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer" onclick="Display('1')">Rs 4,890/Piece Click Here For Details</div>
+			<div id="hid1" style="display: none;">
+				<ul><li>Non electric ON-line UF Water Filter cum purifier</li>
+				<li>Fully automatic</li>
+				<li>No electricity required</li>
+				<li>No plumbing required</li>
+				<li>Bacteria & Cyst Reduction Easy to back flush for cleaning</li>
+				<li>Easy to</li>
+				</ul>
+			</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+       <div class="panel panel-primary clr">
+        <div class="panel-heading">Generic Water Purifier Filter + Dispenser </div>
+        <div class="panel-body"><img src="water\water2.jpeg" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"  onclick="Display('2')">Rs 13,890/- Click Here For Details</div>
+				<div id="hid2" style="display: none;">
+				<ul><li>Non electric ON-line UF Water Filter cum purifier</li>
+				<li>Fully automatic</li>
+				<li>No electricity required</li>
+				<li>No plumbing required</li>
+				<li>Bacteria & Cyst Reduction Easy to back flush for cleaning</li>
+				<li>Easy to</li>
+				</ul>
+			</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary clr">
+        <div class="panel-heading">Dispenser Bottle Water Purifier</div>
+        <div class="panel-body"><img src="water\water3.jpg" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"  onclick="Display('3')">Rs 13,890/- Click Here For Details</div>
+				<div id="hid3" style="display: none;">
+				<ul><li>Non electric ON-line UF Water Filter cum purifier</li>
+				<li>Fully automatic</li>
+				<li>No electricity required</li>
+				<li>No plumbing required</li>
+				<li>Bacteria & Cyst Reduction Easy to back flush for cleaning</li>
+				<li>Easy to</li>
+				</ul>
+			</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary clr">
+        <div class="panel-heading">E CON C GRAND</div>
+        <div class="panel-body"><img src="water\water4.png" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"  onclick="Display('4')">Rs 13,890/- Click Here For Details</div>
+				<div id="hid4" style="display: none;">
+				<ul><li>Non electric ON-line UF Water Filter cum purifier</li>
+				<li>Fully automatic</li>
+				<li>No electricity required</li>
+				<li>No plumbing required</li>
+				<li>Bacteria & Cyst Reduction Easy to back flush for cleaning</li>
+				<li>Easy to</li>
+				</ul>
+			</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+       <div class="panel panel-primary clr">
+        <div class="panel-heading">Dispenser Bottle Water Purifier</div>
+        <div class="panel-body"><img src="water\water5.jpg" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"  onclick="Display('5')">Rs 13,890/- Click Here For Details</div>
+				<div id="hid5" style="display: none;">
+				<ul><li>Non electric ON-line UF Water Filter cum purifier</li>
+				<li>Fully automatic</li>
+				<li>No electricity required</li>
+				<li>No plumbing required</li>
+				<li>Bacteria & Cyst Reduction Easy to back flush for cleaning</li>
+				<li>Easy to</li>
+				</ul>
+			</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+       <div class="panel panel-primary clr">
+        <div class="panel-heading">Dispenser Bottle Water Purifier</div>
+        <div class="panel-body"><img src="water\water5.jpg" class="img-responsive" alt="Image"></div>
+        <div class="panel-footer"  onclick="Display('6')">Rs 13,890/- Click Here For Details</div>
+				<div id="hid6" style="display: none;">
+				<ul><li>Non electric ON-line UF Water Filter cum purifier</li>
+				<li>Fully automatic</li>
+				<li>No electricity required</li>
+				<li>No plumbing required</li>
+				<li>Bacteria & Cyst Reduction Easy to back flush for cleaning</li>
+				<li>Easy to</li>
+				</ul>
+			</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
